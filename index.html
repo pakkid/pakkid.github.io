@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.png">
+    <title>NZ European Culture Celebration</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="noselect" oncontextmenu="return false">
+
+    <header id="header">
+        <h1 id="heading-title">My Culture</h1>
+        <nav>
+			<ul>
+				<li><a onclick="scrollSection(1);">Home</a></li>
+				<li><a onclick="scrollSection(2);">About</a></li>
+				<li><a onclick="scrollSection(3);">Food</a></li>
+				<li><a onclick="scrollSection(4);">Holidays</a></li>
+			</ul>
+		</nav>
+    </header>
+
+    <main id="main">
+        <section class="picky-section" id="section1">
+            <h2>Home</h2>
+            <div class="section-content">
+				<div class="text-section">
+					<p>New Zealand European culture, deeply intertwined with its Italian heritage, reflects a rich tapestry of traditions, art, and cuisine. Rooted in the early European settlers' influences, this culture celebrates community, family values, and a profound connection to the land. Italian contributions are especially notable, with vibrant culinary traditions showcasing beloved dishes like pasta, pizza, and gelato, which have become staples in New Zealand cuisine.</p>
+					<p>Festivals and gatherings often feature music, dance, and art that highlight this blend of cultures, fostering a spirit of togetherness and appreciation for diversity. As a result, New Zealand European culture is not just a reflection of its historical roots but also an evolving celebration of its multicultural identity.</p>
+				</div>
+            <img src="images/homeimg1.jpg">
+				<img src="images/homeimg2.jpg">
+				<img src="images/homeimg3.jpg">
+				
+            </div>
+        </section>
+
+        <section id="section2">
+            <h2>About NZ European Culture</h2>
+            <div class="section-content">
+                <p>NZ European culture encompasses the traditions, languages, and values brought by early settlers, particularly those from the UK and Italy. It reflects a unique blend of European customs and indigenous Maori influences, creating a diverse cultural landscape. The history of colonization, migration, and adaptation plays a vital role in shaping modern identity, emphasizing the importance of community and multiculturalism in New Zealand society.</p>
+                <img src="images/aboutimg1.jpg">
+					 <img src="images/aboutimg2.jpg">
+					 <img src="images/aboutimg3.jpg">
+            </div>
+        </section>
+
+        <section id="section3">
+            <h2>Food</h2>
+            <div class="section-content">
+                <p>New Zealand European cuisine is renowned for its delicious fusion of flavors and influences. Traditional dishes like Pavlova, a meringue-based dessert topped with fresh fruit, reflect the country's British and Italian roots. Other favorites include hearty meat pies and seafood, showcasing the bounty of New Zealand's land and sea. The emphasis on fresh, local ingredients ensures a vibrant culinary scene that continues to evolve.</p>
+                <img src="images/foodimg1.jpg" class="big-ass">
+					 <img src="images/foodimg2.jpg">
+					 <img src="images/foodimg3.jpg">
+            </div>
+        </section>
+
+        <section id="section4">
+            <h2>Holidays</h2>
+            <div class="section-content">
+                <p>Holidays in New Zealand European culture often blend traditional European celebrations with local customs. Christmas, for instance, is celebrated during the summer, leading to unique traditions such as barbecues and beach gatherings. Other important holidays include Easter and Anzac Day, each marked by various cultural practices that highlight the country's rich heritage and community spirit.</p>
+                <img src="images/holidayimg1.jpg">
+					 <img src="images/holidayimg2.jpg">
+					 <img src="images/holidayimg3.jpg">
+            </div>
+        </section>
+	 	 <footer>
+	 	     <p>&copy; 2024 @pakkid GitHub</p>
+	 	 </footer>
+    </main>
+
+
+	
+    <script>
+        window.addEventListener("load", function() {
+            window.scrollTo(0, 0); // Scroll to top on page load
+        });
+		
+        window.history.scrollRestoration = "manual"; // Disable scroll restoration
+    </script>
+	
+   <script src="js/smoothoperator.js"></script>
+	<script src="js/scrollSections.js"></script>
+	<script src="js/hideheader.js"></script>
+
+</body>
+</html>
